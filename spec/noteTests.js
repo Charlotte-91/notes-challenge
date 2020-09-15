@@ -1,6 +1,6 @@
 function runTests() {
  pushingNoteToArray()
- displayingNotes()
+ producingNotes()
  noteListView()
 
 function pushingNoteToArray() {
@@ -11,7 +11,7 @@ function pushingNoteToArray() {
    
 }
 
-function displayingNotes() {
+function producingNotes() {
     var note = new NoteList();
     var text = 'i am a note'
     note.addNote(text)
@@ -26,4 +26,6 @@ function noteListView() {
     console.log(notelistview.html())
     assert.isTrue(notelistview.html() === '<ul><li><div>i am a note</div></li></ul>')
 }
+
+
 }
