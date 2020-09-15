@@ -24,6 +24,6 @@ function noteListView() {
     var text = 'i am a note'
     notelistview.notelist.addNote(text)
     console.log(notelistview.html())
-    assert.isTrue(notelistview.html()[0] === '<ul><li><div>i am a note</div></li></ul>')
+    assert.isTrue(notelistview.html() === '<ul><li><div>i am a note</div></li></ul>')
 }
 }

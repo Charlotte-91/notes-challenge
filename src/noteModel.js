@@ -9,7 +9,7 @@ class NoteList {
     }
 
     viewNotes() {
-            return this.notes
+            return this.notes.join
         }
 };
 
