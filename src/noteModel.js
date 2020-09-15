@@ -9,10 +9,7 @@ class NoteList {
     }
 
     viewNotes() {
-        for ( var i = 0; i < this.notes.length; i++ ) {
-            return this.notes[i]
+            return this.notes
         }
-    }
-
 };
 

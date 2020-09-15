@@ -6,7 +6,8 @@ class NoteListView {
     }
 
     html() {
-       
+       var htmlnotes = this.myNotes.map(note =>  "<ul><li><div>" + note + "</div></li></ul>")
+       return htmlnotes
     }
 
 }
